@@ -1,0 +1,15 @@
+{
+  "name": "ribbonDizzle Codespace",
+  "image": "node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  }
+}
